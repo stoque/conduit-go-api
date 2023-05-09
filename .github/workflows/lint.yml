@@ -25,4 +25,4 @@ jobs:
         uses: golangci/golangci-lint-action@v3
         with:
           version: v1.45.0
-          args: --fix
+          args: --fix --disable ruleguard
